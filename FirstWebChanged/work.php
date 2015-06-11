@@ -1,5 +1,7 @@
 
-
+<?php
+include_once 'common.php';
+?>
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -18,29 +20,6 @@
 </head>
 
 <body>
-
-  <?php
-
-  $lang = isset($_GET[‘lang’]) ? $_GET[‘lang’] : 'en';
-  switch ($lang) {
-    case 'en':
-    $lang_file = 'lang_en.php';
-    break;
-
-    case 'es':
-    $lang_file = 'lang_es.php';
-    break;
-
-    default:
-    $lang_file = 'lang_en.php';
-
-  }
-
-  include_once 'languages/'.$lang_file;
-
-  ?>
-
-
 
 
 
