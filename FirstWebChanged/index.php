@@ -1,8 +1,11 @@
+<?php
+include_once 'common.php';
+?>
 <!DOCTYPE HTML>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Telcaria Web - Home</title>
+    <title><?php echo $lang['TITLE_HOME']; ?></title>
     <link rel="stylesheet" href="css/mystyle.css">
     <link rel="shortcut icon" type="image/x-icon" href="img/circles.png">
 
@@ -21,7 +24,12 @@
 
   <!-- Menú de lenguaje -->
   <p style="text-align:right;color:#003366;margin-right:10%">
+      <a href="index.php?lang=en">
       English <img src="img/uk.png" widht="75" height="25" alt="English"/>
+      </a>
+      <a href="index.php?lang=sp">
+      Español <img src="img/sp.png" widht="75" height="25" alt="Español"/>
+      </a>
   </p>
 
   <!-- Cabecera Telcaria y Texto -->
@@ -36,15 +44,15 @@
   <nav>
     <ul>
         <li>
-          <a href="index.html">
+          <a href="index.php">
             <img src="img/homeH.png" alt="Home Icon" style="width:25px;height:25px"/>
             <img src="img/dot.png" alt="dot icon" style="width:5px;height:5px;align:center"/>
           </a>
         </li>
-        <li><a href="about.html">About us</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="research.html">Research</a></li>
-        <li><a href="work.php?lang=en">Work with us!</a></li>
+        <li><a href="about.php"><?php echo $lang['MENU_ABOUT_US']; ?></a></li>
+        <li><a href="services.php"><?php echo $lang['MENU_SERVICES']; ?></a></li>
+        <li><a href="research.php"><?php echo $lang['MENU_RESEARCH']; ?></a></li>
+        <li><a href="work.php"><?php echo $lang['MENU_WORK']; ?></a></li>
         <li>
           <a href="contact.html">
             <img src="img/mailB.png" alt="Home Icon" style="width:25px;height:25px" onmouseover="this.src='img/mailH.png';" onmouseout="this.src='img/mailB.png';" />

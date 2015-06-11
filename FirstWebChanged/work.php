@@ -40,7 +40,7 @@ include_once 'common.php';
   <nav>
     <ul>
           <li>
-            <a href="index.html">
+            <a href="index.php">
               <img src="img/homeB.png" alt="Home Icon" style="width:25px;height:25px" onmouseover="this.src='img/homeH.png';" onmouseout="this.src='img/homeB.png';" />
             </a>
           </li>
