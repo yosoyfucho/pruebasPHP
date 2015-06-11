@@ -5,7 +5,7 @@ include_once 'common.php';
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Telcaria Web</title>
+    <title><?php echo $lang['TITLE_SERVICES']; ?></title>
     <link rel="stylesheet" href="css/mystyle.css">
     <link href='http://fonts.googleapis.com/css?family=Crete+Round' rel='stylesheet' type='text/css'>
     <link rel="shortcut icon" type="image/x-icon" href="img/circles.png">
@@ -19,10 +19,10 @@ include_once 'common.php';
 
   <!-- Menú de lenguaje -->
   <p style="text-align:right;color:#003366;margin-right:10%">
-      <a href="index.php?lang=en">
+      <a href="services.php?lang=en">
       English <img src="img/uk.png" widht="75" height="25" alt="English"/>
       </a>
-      <a href="index.php?lang=sp">
+      <a href="services.php?lang=sp">
       Español <img src="img/sp.png" widht="75" height="25" alt="Español"/>
       </a>
   </p>
@@ -44,12 +44,12 @@ include_once 'common.php';
           <img src="img/homeB.png" alt="Home Icon" style="width:25px;height:25px" onmouseover="this.src='img/homeH.png';" onmouseout="this.src='img/homeB.png';" />
         </a>
       </li>
-        <li><a href="about.php">About us</a></li>
-        <li><a href="services.php" style="color:#ffff99">Services
+        <li><a href="about.php"><?php echo $lang['MENU_ABOUT_US']; ?></a></li>
+        <li><a href="services.php" style="color:#ffff99"><?php echo $lang['MENU_SERVICES']; ?>
           <img src="img/dot.png" alt="dot icon" style="width:5px;height:5px;align:center"/></a>
         </li>
-        <li><a href="research.php">Research</a></li>
-        <li><a href="work.php">Work with us!</a></li>
+        <li><a href="research.php"><?php echo $lang['MENU_RESEARCH']; ?></a></li>
+        <li><a href="work.php"><?php echo $lang['MENU_WORK']; ?></a></li>
         <li>
           <a href="contact.php">
             <img src="img/mailB.png" alt="Home Icon" style="width:25px;height:25px" onmouseover="this.src='img/mailH.png';" onmouseout="this.src='img/mailB.png';" />
@@ -62,7 +62,7 @@ include_once 'common.php';
 <div id="secondary-content">
 	<div class="wrapper">
 		<article>
-        <h1><a id="Services" style="font-family:'Crete Round'">Services</a></h1>
+        <h1><a id="Services" style="font-family:'Crete Round'"><?php echo $lang['SERVICES_TITLE']; ?></a></h1>
         <p>We provide advanced virtual solutions for network caching, prefetching, network function virtualization, flexible functions split, cloud based network services all in an integrated and portable environment.</p>
         <p>Some of the main areas in which Telcaria works are:</p>
 
