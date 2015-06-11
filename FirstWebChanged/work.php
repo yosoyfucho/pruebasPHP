@@ -21,11 +21,14 @@ include_once 'common.php';
 
 <body>
 
-
-
   <!-- Menú de lenguaje -->
   <p style="text-align:right;color:#003366;margin-right:10%">
+      <a href="index.php?lang=en">
       English <img src="img/uk.png" widht="75" height="25" alt="English"/>
+      </a>
+      <a href="index.php?lang=sp">
+      Español <img src="img/sp.png" widht="75" height="25" alt="Español"/>
+      </a>
   </p>
 
   <!-- Cabecera Telcaria y Texto -->
@@ -45,17 +48,17 @@ include_once 'common.php';
             </a>
           </li>
         </li>
-        <li><a href="about.html"><?php echo $lang['MENU_ABOUT_US']; ?></a></li>
-        <li><a href="services.html"><?php echo $lang['MENU_SERVICES']; ?></a></li>
-        <li><a href="research.html"><?php echo $lang['MENU_RESEARCH']; ?></a></li>
+        <li><a href="about.php"><?php echo $lang['MENU_ABOUT_US']; ?></a></li>
+        <li><a href="services.php"><?php echo $lang['MENU_SERVICES']; ?></a></li>
+        <li><a href="research.php"><?php echo $lang['MENU_RESEARCH']; ?></a></li>
         <li>
-          <a href="work.html" style="color:#ffff99"><?php echo $lang['MENU_WORK']; ?>
+          <a href="work.php" style="color:#ffff99"><?php echo $lang['MENU_WORK']; ?>
             <img src="img/dot.png" alt="dot icon" style="width:5px;height:5px;align:center"/>
 
           </a>
           </li>
         <li>
-          <a href="contact.html" style="color:#ffff99">
+          <a href="contact.php" style="color:#ffff99">
             <img src="img/mailB.png" alt="mail Icon" style="width:25px;height:25px" onmouseover="this.src='img/mailH.png';" onmouseout="this.src='img/mailB.png';" />
           </a>
         </li>
@@ -68,7 +71,6 @@ include_once 'common.php';
   <article>
     <h1><?php echo $lang['WORK_TITLE']; ?></h1>
     <p>
-      <?php echo "prueba"; ?>
       <?php echo $lang['WORK_FIRST']; ?>
     </p>
   </article>

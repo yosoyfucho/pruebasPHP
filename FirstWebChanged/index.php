@@ -135,7 +135,7 @@ include_once 'common.php';
 <div id="secondary-content">
 	<div class="wrapper">
 		<article>
-        <h1>Home</h1>
+        <h1><?php echo $lang['HOME_HEADING']; ?></h1>
         <p>Telcaria is the advanced network service virtualization company serving the dynamic network operators.</p>
         <p>Nowadays, voice and Internet access are totally commoditized. Thus Telcos are forced to compete in price, resulting in sustained trend in profit margin reduction.<br> What actions are needed to increase profits?</p>
         <ul><li>Lower costs by combining SDN and NFV</li><li>Increase added value by service differentiation</li></ul>

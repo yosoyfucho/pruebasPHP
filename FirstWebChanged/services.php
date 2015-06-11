@@ -1,3 +1,6 @@
+<?php
+include_once 'common.php';
+?>
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -16,11 +19,16 @@
 
   <!-- Menú de lenguaje -->
   <p style="text-align:right;color:#003366;margin-right:10%">
+      <a href="index.php?lang=en">
       English <img src="img/uk.png" widht="75" height="25" alt="English"/>
+      </a>
+      <a href="index.php?lang=sp">
+      Español <img src="img/sp.png" widht="75" height="25" alt="Español"/>
+      </a>
   </p>
 
   <!-- Cabecera Telcaria y Texto -->
-  <a href="index.html">
+  <a href="index.php">
   <header>
     <h1>
       Fostering the vendor-neutral and<br>standard-based mobile Internet
@@ -32,18 +40,18 @@
   <nav>
     <ul>
       <li>
-        <a href="index.html">
+        <a href="index.php">
           <img src="img/homeB.png" alt="Home Icon" style="width:25px;height:25px" onmouseover="this.src='img/homeH.png';" onmouseout="this.src='img/homeB.png';" />
         </a>
       </li>
-        <li><a href="about.html">About us</a></li>
-        <li><a href="services.html" style="color:#ffff99">Services
+        <li><a href="about.php">About us</a></li>
+        <li><a href="services.php" style="color:#ffff99">Services
           <img src="img/dot.png" alt="dot icon" style="width:5px;height:5px;align:center"/></a>
         </li>
-        <li><a href="research.html">Research</a></li>
-        <li><a href="work.html">Work with us!</a></li>
+        <li><a href="research.php">Research</a></li>
+        <li><a href="work.php">Work with us!</a></li>
         <li>
-          <a href="contact.html">
+          <a href="contact.php">
             <img src="img/mailB.png" alt="Home Icon" style="width:25px;height:25px" onmouseover="this.src='img/mailH.png';" onmouseout="this.src='img/mailB.png';" />
           </a>
         </li>
