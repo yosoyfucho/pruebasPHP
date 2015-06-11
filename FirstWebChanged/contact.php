@@ -5,7 +5,7 @@ include_once 'common.php';
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Telcaria Web</title>
+    <title><?php echo $lang['TITLE_CONTACT']; ?></title>
     <link rel="stylesheet" href="css/mystyle.css">
     <link href='http://fonts.googleapis.com/css?family=Crete+Round' rel='stylesheet' type='text/css'>
     <link rel="shortcut icon" type="image/x-icon" href="img/circles.png">
@@ -19,10 +19,10 @@ include_once 'common.php';
 
   <!-- Menú de lenguaje -->
   <p style="text-align:right;color:#003366;margin-right:10%">
-      <a href="index.php?lang=en">
+      <a href="contact.php?lang=en">
       English <img src="img/uk.png" widht="75" height="25" alt="English"/>
       </a>
-      <a href="index.php?lang=sp">
+      <a href="contact.php?lang=sp">
       Español <img src="img/sp.png" widht="75" height="25" alt="Español"/>
       </a>
   </p>
@@ -64,7 +64,7 @@ include_once 'common.php';
 
   <div class="wrapper">
   <article>
-    <h1>Where We Are</h1>
+    <h1><?php echo $lang['CONTACT_TITLE']; ?></h1>
     <pre>
       Telcaria Ideas SL
       Calle Barrionuevo 8, Local 1
@@ -79,29 +79,28 @@ include_once 'common.php';
 <div class="w-container">
   <div class="wrap">
     <div class="contact-div">
-      <h1 class="contact-heading">Contact Us</h1>
+      <h1 class="contact-heading"><?php echo $lang['CONTACT_US_TITLE']; ?></h1>
       <div class="sepreater"></div>
     </div>
-    <p class="contact-para">Thanks for taking the time to contact us!
-      <br>We do our best to respond to quickly, it could take us 1-2 business days to get back to you. Feel free to say hello!</p>
+    <p class="contact-para"><?php echo $lang['CONTACT_FIRST']; ?></p>
     <div class="w-form">
       <form action="contactForm.php" method="post">
-      <label for="name">Name:</label>
+      <label for="name"><?php echo $lang['FORM_NAME']; ?></label>
        <input class="w-input" type="text" placeholder="Enter your name" name="cf_name">
        <br>
-     <label for="email">Email Address:</label>
+     <label for="email"><?php echo $lang['FORM_ADDRESS']; ?></label>
        <input class="w-input" placeholder="Enter your email address" type="text" name="cf_email" required="required">
        <br>
-     <label for="email">Your Message:</label>
+     <label for="email"><?php echo $lang['FORM_MSG']; ?></label>
        <textarea class="w-input message" placeholder="Enter your Message Here" name="cf_message"></textarea><br>
 
      <input class="w-button" type="submit" value="Send">
    </form>
     <div class="w-form-done">
-        <p>Thank you! Your submission has been received!</p>
+        <p><?php echo $lang['FORM_OK']; ?></p>
       </div>
       <div class="w-form-fail">
-        <p>Oops! Something went wrong while submitting the form :(</p>
+        <p><?php echo $lang['FORM_WRONG']; ?></p>
       </div>
     </div>
   </div>

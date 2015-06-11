@@ -28,7 +28,7 @@ $lang['HOME_SECOND'] = 'Nowadays, voice and Internet access are totally commodit
 $lang['HOME_SECOND_UL_1']='Lower costs by combining SDN and NFV.';
 $lang['HOME_SECOND_UL_2']='Increase added value by service differentiation.';
 $lang['HOME_THIRD']='That is, Telco Virtualization: from Hardware-based companies to Software-based companies.';
-//$lang['HOME_FOURTH']='Telcaria provides products and services for Software-Based Telcos, but we also provide Web Technology developments, Internet Services and ICT solutions integration at request. Please visit the <a href="services.html">'Services'</a> section for more info.';
+$lang['HOME_FOURTH']='Telcaria provides products and services for Software-Based Telcos, but we also provide Web Technology developments, Internet Services and ICT solutions integration at request. Please visit the <a href="services.html"> Services</a> section for more info.';
 $lang['HOME_FIFTH']='Telcaria costumers:';
 $lang['HOME_FIFTH_UL_1']='SaaS to drive developer productivity with a vendor-neutral, standard-based open-source platforms.';
 $lang['HOME_FIFTH_UL_2']='Network Operators to differentiate their platform in the high-growth IaaS marketplace.';
@@ -47,7 +47,7 @@ $lang['ABOUT_FIRST']='Telcaria is an SME providing advanced services to network 
 $lang['ABOUT_SECOND']='Telcaria is headquartered in Madrid, Spain. The company has collaborations with research
         institute IMDEA Networks and top Universities in the area: U. Carlos III of Madrid,
         U. Politecnica de Madrid and U. Alcala.';
-//$lang['ABOUT_THIRD']='If you feel like joining our team, please visit the <a href="contact.html">'Contact Us'</a> section and send us your information and interests.';
+$lang['ABOUT_THIRD']='If you feel like joining our team, please visit the <a href="contact.html"> Contact Us </a> section and send us your information and interests.';
 
 //services
 $lang['SERVICES_TITLE']='Services';
@@ -70,9 +70,9 @@ $lang['CONTACT_TITLE']='Where we are';
 $lang['CONTACT_US_TITLE']='CONTACT US';
 $lang['CONTACT_FIRST']='Thanks for taking the time to contact us!
   <br>We do our best to respond to quickly, it could take us 1-2 business days to get back to you. Feel free to say hello!';
-$lang['FORM_NAME']='Name';
-$lang['FORM_ADDRESS']='E-mail Address';
-$lang['FORM_MSG']='Your Message';
+$lang['FORM_NAME']='Name:';
+$lang['FORM_ADDRESS']='E-mail Address:';
+$lang['FORM_MSG']='Your Message:';
 $lang['FORM_OK']='Thank you! Your submission has been received!';
 $lang['FORM_WRONG']='Oops! Something went wrong while submitting the form :(';
 

@@ -54,7 +54,7 @@ include_once 'common.php';
         <li><a href="research.php"><?php echo $lang['MENU_RESEARCH']; ?></a></li>
         <li><a href="work.php"><?php echo $lang['MENU_WORK']; ?></a></li>
         <li>
-          <a href="contact.html">
+          <a href="contact.php">
             <img src="img/mailB.png" alt="Home Icon" style="width:25px;height:25px" onmouseover="this.src='img/mailH.png';" onmouseout="this.src='img/mailB.png';" />
           </a>
         </li>

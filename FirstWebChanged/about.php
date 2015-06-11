@@ -5,7 +5,7 @@ include_once 'common.php';
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Telcaria Web - About Us</title>
+    <title><?php echo $lang['TITLE_ABOUT']; ?></title>
     <link rel="stylesheet" href="css/mystyle.css">
     <link href='http://fonts.googleapis.com/css?family=Crete+Round' rel='stylesheet' type='text/css'>
     <link rel="shortcut icon" type="image/x-icon" href="img/circles.png">
@@ -19,10 +19,10 @@ include_once 'common.php';
 
   <!-- Menú de lenguaje -->
   <p style="text-align:right;color:#003366;margin-right:10%">
-      <a href="index.php?lang=en">
+      <a href="about.php?lang=en">
       English <img src="img/uk.png" widht="75" height="25" alt="English"/>
       </a>
-      <a href="index.php?lang=sp">
+      <a href="about.php?lang=sp">
       Español <img src="img/sp.png" widht="75" height="25" alt="Español"/>
       </a>
   </p>
@@ -44,12 +44,12 @@ include_once 'common.php';
             <img src="img/homeB.png" alt="Home Icon" style="width:25px;height:25px" onmouseover="this.src='img/homeH.png';" onmouseout="this.src='img/homeB.png';" />
           </a>
         </li>
-        <li><a href="about.php" style="color:#ffff99">About us
+        <li><a href="about.php" style="color:#ffff99"><?php echo $lang['MENU_ABOUT_US']; ?>
           <img src="img/dot.png" alt="dot icon" style="width:5px;height:5px;align:center"/></a>
         </li>
-        <li><a href="services.php">Services</a></li>
-        <li><a href="research.php">Research</a></li>
-        <li><a href="work.php">Work with us!</a></li>
+        <li><a href="services.php"><?php echo $lang['MENU_SERVICES']; ?></a></li>
+        <li><a href="research.php"><?php echo $lang['MENU_RESEARCH']; ?></a></li>
+        <li><a href="work.php"><?php echo $lang['MENU_WORK']; ?></a></li>
         <li>
           <a href="contact.php">
             <img src="img/mailB.png" alt="mail Icon" style="width:25px;height:25px" onmouseover="this.src='img/mailH.png';" onmouseout="this.src='img/mailB.png';" />
@@ -62,22 +62,10 @@ include_once 'common.php';
   <div id="secondary-content">
     <div class="wrapper">
     <article>
-      <h1>About Us</h1>
-      <p>Telcaria is an SME providing advanced services to network operatores worldwide.
-        We partner with equipment manufacturers to redesign their products towards a cloud-based
-        network infrastructure, we also work on Web Technology developments, Internet Services and
-        ICT solutions integration. Moreover, Telcaria has a department specifically focused on R&D
-        to exploit all the recent advances in technologies in our products. Our team is composed of
-        young bright researchers and developers. A large fraction of our employees hold a PhD in
-        Telecomunications, Electrical Engineering or Computer Science.</p>
-      <p>
-        Telcaria is headquartered in Madrid, Spain. The company has collaborations with research
-        institute IMDEA Networks and top Universities in the area: U. Carlos III of Madrid,
-        U. Politecnica de Madrid and U. Alcala.
-      </p>
-      <p>
-        If you feel like joining our team, please visit the <a href="contact.php">'Contact Us'</a> section and send us your information and interests.
-      </p>
+      <h1><?php echo $lang['ABOUT_HEADING']; ?></h1>
+      <p><?php echo $lang['ABOUT_FIRST']; ?></p>
+      <p><?php echo $lang['ABOUT_SECOND']; ?></p>
+      <p><?php echo $lang['ABOUT_THIRD']; ?></p>
     </article>
 
   </div>
