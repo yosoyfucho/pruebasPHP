@@ -1,4 +1,3 @@
-
 <?php
 include_once 'common.php';
 ?>
@@ -22,16 +21,16 @@ include_once 'common.php';
 
   <!-- Menú de lenguaje -->
   <p style="text-align:right;color:#003366;margin-right:10%">
-      <a href="index.php?lang=en">
+      <a href="work.php?lang=en">
       English <img src="img/uk.png" widht="75" height="25" alt="English"/>
       </a>
-      <a href="index.php?lang=sp">
+      <a href="work.php?lang=sp">
       Español <img src="img/sp.png" widht="75" height="25" alt="Español"/>
       </a>
   </p>
 
   <!-- Cabecera Telcaria y Texto -->
-  <a href="index.html">
+  <a href="index.php">
   <header>
     <h1>
       Fostering the vendor-neutral and<br>standard-based mobile Internet

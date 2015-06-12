@@ -36,7 +36,7 @@ $lang['HOME_FIFTH_UL_3']='Enterprise IT Operations to quickly scale up and suppo
 $lang['HOME_FIFTH_UL_4']='Infrastructure Technology Suppliers to enable a rapid growth across the virtualization marketplace';
 
 //SLIDER
-$lang['SLIDE_LEARN_MORE']='Learn More';
+$lang['SLIDE_LEARN']='Learn More';
 $lang['SLIDE_ABOUT']='Telcaria is an SME providing advanced services...';
 $lang['SLIDE_SERVICES']='We provide advanced virtual solutions for...';
 $lang['SLIDE_RESEARCH']='In Telcaria, we consider research is...';
@@ -81,6 +81,32 @@ $lang['SERVICES_WEBTECH']='Web Technology development and ICT Solution integrati
 $lang['SERVICES_WEBTECH_UL_1']='Frontend applications for communications infrastructures (for PC, tablet and smartphone)';
 $lang['SERVICES_WEBTECH_UL_2']='Web browser plugins and web application design';
 
+$lang['OSNV']='Open Source Network Virtualization';
+$lang['OSNV_UL_1']='SDN deployments using OpenFlow as southbound protocol: ';
+$lang['OSNV_UL_UL_1']='Hands-on experience with multiple controllers: RYU, POX & OpenDaylight';
+$lang['OSNV_UL_UL_2']='OpenFlow SW switches, such as Open vSwitch or Pantou for OpenWRT';
+$lang['OSNV_UL_UL_3']='Experience in deploying medium-to-large scale testbeds';
+$lang['OSNV_UL_UL_4']='Experience with OF-Config (with RYU), NETCONF and YANG';
+$lang['OSNV_UL_2']='Working on discovery and auto-configuration extensions';
+$lang['OSNV_UL_3']='NFV deployments using OpenStack';
+$lang['OSNV_UL_4']='Mobility support prototypes using OpenFlow, evaluating multiple alternative approaches and the associated cost';
+
+$lang['IS']='Internet Services';
+$lang['IS_FIRST']='Telcaria has an extensive expertise in architectures and protocols for communications networks, giving different solutions
+  for network topology design, forwarding, routing, communication frameworks, etc. Our work takes a multi-disciplinary approach
+  to the design and understanding of network protocols and architectures.';
+
+$lang['WN']='Wireless Networks';
+$lang['WN_FIRST']='Telcaria has different works in the areas of ad hoc and mesh networks, in particular on routing, and apply them in several contexts. We also
+  explore new programmable interfaces to enhance performance and evolution of networks, specially for future wireless technologies.';
+
+$lang['WEBT']='Web Technology development and ICT Solutions integration';
+$lang['WEBT_FIRST']='Telcaria has developed different projects for other SMEs requesting applications for different environments (PC, tablet and smartphone), such as
+  frontends for the visualization of data exchanged in communication networks (e.g. home automation), as well as web plugins and other specific
+  developments. We have also worked with commodity hardware, such as Arduino and FPGAs (more specifically, NetFPGAs).';
+
+
+
 // TO DO
 
 //work
@@ -96,7 +122,7 @@ $lang['RESEARCH_FIRST_UL_2']='Superfluidity';
 
 //contact
 $lang['CONTACT_TITLE']='Where we are';
-$lang['CONTACT_US_TITLE']='CONTACT US';
+$lang['CONTACT_US_TITLE']='Contact Us';
 $lang['CONTACT_FIRST']='Thanks for taking the time to contact us!
   <br>We do our best to respond to quickly, it could take us 1-2 business days to get back to you. Feel free to say hello!';
 $lang['FORM_NAME']='Name:';

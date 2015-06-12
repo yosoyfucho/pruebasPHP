@@ -118,21 +118,22 @@ include_once 'common.php';
       <p>
         <img class="right" src="img/services1.png" alt="lan"/>
         <ul>
-          <h2><a id="Open">Open source Network Virtualization</a></h2>
-            <li> SDN deployments using OpenFlow as southbound protocol: <br>
+          <h2><a id="Open"><?php echo $lang['OSNV']; ?></a></h2>
+            <li> <?php echo $lang['OSNV_UL_1']; ?> <br>
 				<ul>
-                <li>Hands-on experience with multiple controllers: RYU, POX & OpenDaylight</li>
-                <li>OpenFlow SW switches, such as Open vSwitch or Pantou for OpenWRT</li>
-                <li>Experience in deploying medium-to-large scale testbeds</li>
-                <li>Experience with OF-Config (with RYU), NETCONF and YANG
+                <li><?php echo $lang['OSNV_UL_UL_1']; ?></li>
+                <li><?php echo $lang['OSNV_UL_UL_2']; ?></li>
+                <li><?php echo $lang['OSNV_UL_UL_3']; ?></li>
+                <li><?php echo $lang['OSNV_UL_UL_4']; ?></li>
+              </ul>
 				  <ul>
-                  <li>Working on discovery and auto-configuration extensions</li>
+            <li> <?php echo $lang['OSNV_UL_2']; ?> <br>
 				  </ul>
                 </li>
 				</ul>
             </li>
-            <li>NFV deployments using OpenStack</li>
-            <li>Mobility support prototypes using OpenFlow, evaluating multiple alternative approaches and the associated cost</li>
+            <li> <?php echo $lang['OSNV_UL_3']; ?> <br>
+            <li> <?php echo $lang['OSNV_UL_4']; ?> <br>
         </ul>
       </p>
       <a href="#Services"><img src="img/up.png" alt="up Icon" style="width:25px;height:25px" onmouseover="this.src='img/upH.png';" onmouseout="this.src='img/up.png';" /></a>
@@ -152,10 +153,8 @@ include_once 'common.php';
     <article>
       <p>
         <img class="right" src="img/services2.jpg" alt="lan"/>
-        <h2><a id="Internet">Internet Services</a></h2>
-        <p>Telcaria has an extensive expertise in architectures and protocols for communications networks, giving different solutions
-          for network topology design, forwarding, routing, communication frameworks, etc. Our work takes a multi-disciplinary approach
-          to the design and understanding of network protocols and architectures.</p>
+        <h2><a id="Internet"><?php echo $lang['IS']; ?></a></h2>
+        <p><?php echo $lang['IS_FIRST']; ?></p>
       </p>
       <a href="#Services"><img src="img/up.png" alt="up Icon" style="width:25px;height:25px" onmouseover="this.src='img/upH.png';" onmouseout="this.src='img/up.png';" /></a>
 
@@ -174,10 +173,8 @@ include_once 'common.php';
     <article>
       <p>
         <img class="right" src="img/services3.png" alt="lan"/>
-        <h2> <a id="Wireless">Wireless Networks</a></h2>
-        <p>Telcaria has different works in the areas of ad hoc and mesh networks, in particular on routing, and apply them in several contexts. We also
-          explore new programmable interfaces to enhance performance and evolution of networks, specially for future wireless technologies.
-        </p>
+        <h2> <a id="Wireless"><?php echo $lang['WN']; ?></a></h2>
+        <p><?php echo $lang['WN_FIRST']; ?></p>
       </p>
       <a href="#Services"><img src="img/up.png" alt="up Icon" style="width:25px;height:25px" onmouseover="this.src='img/upH.png';" onmouseout="this.src='img/up.png';" /></a>
 
@@ -197,11 +194,8 @@ include_once 'common.php';
 
       <p>
         <img class="right" src="img/services4.jpg" alt="lan"/>
-        <h2><a id="Web">Web Technology development and ICT Solutions integration</a></h2>
-        <p>Telcaria has developed different projects for other SMEs requesting applications for different environments (PC, tablet and smartphone), such as
-          frontends for the visualization of data exchanged in communication networks (e.g. home automation), as well as web plugins and other specific
-          developments. We have also worked with commodity hardware, such as Arduino and FPGAs (more specifically, NetFPGAs).
-        </p>
+        <h2><a id="Web"><?php echo $lang['WEBT']; ?></a></h2>
+        <p><?php echo $lang['WEBT_FIRST']; ?></p>
       </p>
       <a href="#Services"><img src="img/up.png" alt="up Icon" style="width:25px;height:25px" onmouseover="this.src='img/upH.png';" onmouseout="this.src='img/up.png';" /></a>
 		</article>

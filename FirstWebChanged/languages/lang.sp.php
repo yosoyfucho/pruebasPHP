@@ -80,6 +80,32 @@ $lang['SERVICES_WIRELESS_UL_3']='ESP Energy-efficent networks';
 $lang['SERVICES_WEBTECH']='ESP Web Technology development and ICT Solution integration';
 $lang['SERVICES_WEBTECH_UL_1']='ESP Frontend applications for communications infrastructures (for PC, tablet and smartphone)';
 $lang['SERVICES_WEBTECH_UL_2']='ESP Web browser plugins and web application design';
+
+$lang['OSNV']='ESP Open Source Network Virtualization';
+$lang['OSNV_UL_1']='ESP SDN deployments using OpenFlow as southbound protocol: ';
+$lang['OSNV_UL_UL_1']='ESP Hands-on experience with multiple controllers: RYU, POX & OpenDaylight';
+$lang['OSNV_UL_UL_2']='ESP OpenFlow SW switches, such as Open vSwitch or Pantou for OpenWRT';
+$lang['OSNV_UL_UL_3']='ESP Experience in deploying medium-to-large scale testbeds';
+$lang['OSNV_UL_UL_4']='ESP Experience with OF-Config (with RYU), NETCONF and YANG';
+$lang['OSNV_UL_2']='ESP Working on discovery and auto-configuration extensions';
+$lang['OSNV_UL_3']='ESP NFV deployments using OpenStack';
+$lang['OSNV_UL_4']='ESP Mobility support prototypes using OpenFlow, evaluating multiple alternative approaches and the associated cost';
+
+$lang['IS']='ESP Internet Services';
+$lang['IS_FIRST']='ESP Telcaria has an extensive expertise in architectures and protocols for communications networks, giving different solutions
+  for network topology design, forwarding, routing, communication frameworks, etc. Our work takes a multi-disciplinary approach
+  to the design and understanding of network protocols and architectures.';
+
+$lang['WN']='ESP Wireless Networks';
+$lang['WN_FIRST']='ESP Telcaria has different works in the areas of ad hoc and mesh networks, in particular on routing, and apply them in several contexts. We also
+    explore new programmable interfaces to enhance performance and evolution of networks, specially for future wireless technologies.';
+
+$lang['WEBT']='ESP Web Technology development and ICT Solutions integration';
+$lang['WEBT_FIRST']='ESP Telcaria has developed different projects for other SMEs requesting applications for different environments (PC, tablet and smartphone), such as
+      frontends for the visualization of data exchanged in communication networks (e.g. home automation), as well as web plugins and other specific
+      developments. We have also worked with commodity hardware, such as Arduino and FPGAs (more specifically, NetFPGAs).';
+
+
 // TO DO
 
 //work

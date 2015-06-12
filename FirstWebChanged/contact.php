@@ -45,10 +45,10 @@ include_once 'common.php';
             </a>
           </li>
         </li>
-        <li><a href="about.php">About us</a></li>
-        <li><a href="services.php">Services</a></li>
-        <li><a href="research.php">Research</a></li>
-        <li><a href="work.php">Work with us!</a></li>
+        li><a href="about.php"><?php echo $lang['MENU_ABOUT_US']; ?></a></li>
+        <li><a href="services.php" style="color:#ffff99"><?php echo $lang['MENU_SERVICES']; ?></li>
+        <li><a href="research.php"><?php echo $lang['MENU_RESEARCH']; ?></a></li>
+        <li><a href="work.php"><?php echo $lang['MENU_WORK']; ?></a></li>
         <li>
           <a href="contact.php">
             <img src="img/mailH.png" alt="Home Icon" style="width:25px;height:25px"/>

@@ -78,7 +78,7 @@ include_once 'common.php';
               <span>
                 <b><?php echo $lang['MENU_ABOUT_US'];?></b><br />
                 <?php echo $lang['SLIDE_ABOUT'];?>
-                <a href="about.html."><?php echo $lang['SLIDE_LEARN'];?> ⊕</a>
+                <a href="about.php"><?php echo $lang['SLIDE_LEARN'];?> ⊕</a>
               </span>
 
 
@@ -86,20 +86,20 @@ include_once 'common.php';
               <span>
                 <b><?php echo $lang['MENU_SERVICES'];?></b><br />
                 <?php echo $lang['SLIDE_SERVICES'];?>
-                <a href="services.html"><?php echo $lang['SLIDE_LEARN'];?> ⊕</a>
+                <a href="services.php"><?php echo $lang['SLIDE_LEARN'];?> ⊕</a>
               </span>
 
               <img src="img/imgsCarr/resized/r3.png" alt="Router 3" />
               <span>
                 <b><?php echo $lang['MENU_RESEARCH'];?></b><br />
                 <?php echo $lang['SLIDE_RESEARCH'];?>
-                <a href="research.html"><?php echo $lang['SLIDE_LEARN'];?> ⊕</a>
+                <a href="research.php"><?php echo $lang['SLIDE_LEARN'];?> ⊕</a>
               </span>
               <img src="img/imgsCarr/resized/r4.png" alt="Router 3" />
               <span>
                 <b><?php echo $lang['MENU_WORK'];?></b><br />
                 <?php echo $lang['SLIDE_WORK'];?>
-                <a href="work.html"><?php echo $lang['SLIDE_LEARN'];?> ⊕</a>
+                <a href="work.php"><?php echo $lang['SLIDE_LEARN'];?> ⊕</a>
               </span>
         </div> <!-- carr -->
     </article >
