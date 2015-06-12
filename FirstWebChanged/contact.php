@@ -96,7 +96,7 @@ include_once 'common.php';
 
      <input class="w-button" type="submit" value="Send">
    </form>
-    <div class="w-form-done">
+      <div class="w-form-done">
         <p><?php echo $lang['FORM_OK']; ?></p>
       </div>
       <div class="w-form-fail">

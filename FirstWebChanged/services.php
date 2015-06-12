@@ -63,44 +63,44 @@ include_once 'common.php';
 	<div class="wrapper">
 		<article>
         <h1><a id="Services" style="font-family:'Crete Round'"><?php echo $lang['SERVICES_TITLE']; ?></a></h1>
-        <p>We provide advanced virtual solutions for network caching, prefetching, network function virtualization, flexible functions split, cloud based network services all in an integrated and portable environment.</p>
-        <p>Some of the main areas in which Telcaria works are:</p>
+        <p><?php echo $lang['SERVICES_FIRST']; ?></p>
+        <p><?php echo $lang['SERVICES_SECOND']; ?></p>
 
   </article>
   </div>
   <div class="wrapper">
     <article>
-      <ul><h3><a href="#Open">Open Source Network Virtualization</a></h3>
-        <li>Network Function Virtualization</li>
-        <li>Cloud-based Network Services</li>
-        <li>Software Defined Networking</li>
+      <ul><h3><a href="#Open"><?php echo $lang['SERVICES_OSNV']; ?></a></h3>
+        <li><?php echo $lang['SERVICES_OSNV_UL_1']; ?></li>
+        <li><?php echo $lang['SERVICES_OSNV_UL_2']; ?></li>
+        <li><?php echo $lang['SERVICES_OSNV_UL_3']; ?></li>
       </ul>
 
     </article>
 
     <article>
-      <ul><h3><a href="#Internet">Internet Services</a></h3>
-        <li>Mobile Operators Infrastructure</li>
-        <li>Advanced Mobility Protocols</li>
-        <li>Centralized inter-domain routing systems</li>
-        <li>Scalable L2 routing protocols</li>
+      <ul><h3><a href="#Internet"><?php echo $lang['SERVICES_IS']; ?></a></h3>
+        <li><?php echo $lang['SERVICES_IS_UL_1']; ?></li>
+        <li><?php echo $lang['SERVICES_IS_UL_2']; ?></li>
+        <li><?php echo $lang['SERVICES_IS_UL_3']; ?></li>
+        <li><?php echo $lang['SERVICES_IS_UL_4']; ?></li>
       </ul>
 
     </article>
 
     <article>
-      <ul><h3><a href="#Wireless">Wireless Networks</a></h3>
-        <li>Advanced MAC protocols</li>
-        <li>Wireless Mesh Network</li>
-        <li>Energy-efficent networks</li>
+      <ul><h3><a href="#Wireless"><?php echo $lang['SERVICES_WIRELESS']; ?></a></h3>
+        <li><?php echo $lang['SERVICES_WIRELESS_UL_1']; ?></li>
+        <li><?php echo $lang['SERVICES_WIRELESS_UL_2']; ?></li>
+        <li><?php echo $lang['SERVICES_WIRELESS_UL_3']; ?></li>
       </ul>
 
     </article>
 
     <article>
-      <ul><h3><a href="#Web">Web Technology development and ICT Solution integration</a></h3>
-        <li>Frontend applications for communications infrastructures (for PC, tablet and smartphone)</li>
-        <li>Web browser plugins and web application design</li>
+      <ul><h3><a href="#Web"><?php echo $lang['SERVICES_WEBTECH']; ?></a></h3>
+        <li><?php echo $lang['SERVICES_WEBTECH_UL_1']; ?></li>
+        <li><?php echo $lang['SERVICES_WEBTECH_UL_2']; ?></li>
       </ul>
     </article>
   </div>

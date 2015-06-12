@@ -5,6 +5,7 @@ include_once 'common.php';
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!-- TITLE_HOME -->
     <title><?php echo $lang['TITLE_HOME']; ?></title>
     <link rel="stylesheet" href="css/mystyle.css">
     <link rel="shortcut icon" type="image/x-icon" href="img/circles.png">
@@ -33,7 +34,7 @@ include_once 'common.php';
   </p>
 
   <!-- Cabecera Telcaria y Texto -->
-  <a href="index.html">
+  <a href="index.php">
   <header>
     <h1>
       Fostering the vendor-neutral and<br>standard-based mobile Internet
@@ -49,9 +50,13 @@ include_once 'common.php';
             <img src="img/dot.png" alt="dot icon" style="width:5px;height:5px;align:center"/>
           </a>
         </li>
+        <!-- MENU_ABOUT_US -->
         <li><a href="about.php"><?php echo $lang['MENU_ABOUT_US']; ?></a></li>
+        <!-- MENU_SERVICES -->
         <li><a href="services.php"><?php echo $lang['MENU_SERVICES']; ?></a></li>
+        <!-- MENU_RESEARCH -->
         <li><a href="research.php"><?php echo $lang['MENU_RESEARCH']; ?></a></li>
+        <!-- MENU_WORK -->
         <li><a href="work.php"><?php echo $lang['MENU_WORK']; ?></a></li>
         <li>
           <a href="contact.php">
@@ -71,31 +76,30 @@ include_once 'common.php';
 
             <img src="img/imgsCarr/resized/r1.png" alt="Router 1" />
               <span>
-                <b>About Us</b><br />
-                Telcaria is an SME providing advanced services...
-                <a href="about.html.">Learn More ⊕ </a>
+                <b><?php echo $lang['MENU_ABOUT_US'];?></b><br />
+                <?php echo $lang['SLIDE_ABOUT'];?>
+                <a href="about.html."><?php echo $lang['SLIDE_LEARN'];?> ⊕</a>
               </span>
 
 
               <img src="img/imgsCarr/resized/r2.png" alt="Router 2" />
               <span>
-                <b>Services</b><br />
-                We provide advanced virtual solutions for...
-                <a href="services.html">Learn More ⊕ </a>
+                <b><?php echo $lang['MENU_SERVICES'];?></b><br />
+                <?php echo $lang['SLIDE_SERVICES'];?>
+                <a href="services.html"><?php echo $lang['SLIDE_LEARN'];?> ⊕</a>
               </span>
 
               <img src="img/imgsCarr/resized/r3.png" alt="Router 3" />
               <span>
-                <b>Research</b><br />
-                In Telcaria, we consider research is...
-                <a href="research.html">Learn More ⊕ </a>
+                <b><?php echo $lang['MENU_RESEARCH'];?></b><br />
+                <?php echo $lang['SLIDE_RESEARCH'];?>
+                <a href="research.html"><?php echo $lang['SLIDE_LEARN'];?> ⊕</a>
               </span>
-
               <img src="img/imgsCarr/resized/r4.png" alt="Router 3" />
               <span>
-                <b>Work with us!</b><br />
-                We are currently hiring...
-                <a href="work.html">Learn More ⊕ </a>
+                <b><?php echo $lang['MENU_WORK'];?></b><br />
+                <?php echo $lang['SLIDE_WORK'];?>
+                <a href="work.html"><?php echo $lang['SLIDE_LEARN'];?> ⊕</a>
               </span>
         </div> <!-- carr -->
     </article >
@@ -135,20 +139,24 @@ include_once 'common.php';
 <div id="secondary-content">
 	<div class="wrapper">
 		<article>
+
         <h1><?php echo $lang['HOME_HEADING']; ?></h1>
-        <p>Telcaria is the advanced network service virtualization company serving the dynamic network operators.</p>
-        <p>Nowadays, voice and Internet access are totally commoditized. Thus Telcos are forced to compete in price, resulting in sustained trend in profit margin reduction.<br> What actions are needed to increase profits?</p>
-        <ul><li>Lower costs by combining SDN and NFV</li><li>Increase added value by service differentiation</li></ul>
-        <p>That is, Telco Virtualization: from Hardware-based companies to Software-based companies.</p>
-        <p>Telcaria provides products and services for Software-Based Telcos, but we also provide Web Technology developments, Internet Services and ICT solutions integration at request. Please visit the <a href="services.html">'Services'</a> section for more info.</p>
-        <p>Telcaria costumers:</p>
+        <p><?php echo $lang['HOME_FIRST']; ?></p>
+        <p><?php echo $lang['HOME_SECOND']; ?></p>
+        <ul>
+          <li><?php echo $lang['HOME_SECOND_UL_1'];?></li>
+          <li><?php echo $lang['HOME_SECOND_UL_2'];?></li>
+        </ul>
+        <p><?php echo $lang['HOME_THIRD'];?></p>
+        <p><?php echo $lang['HOME_FOURTH'];?></p>
+        <p><?php echo $lang['HOME_FIFTH'];?></p>
         <p>
           <img class="right" src="img/home1.jpg" alt="Handshake"/>
           <ul>
-            <li> SaaS to drive developer productivity with a vendor-neutral, standard-based open-source platforms </li>
-            <li> Network Operators to differentiate their platform in the high-growth IaaS marketplace </li>
-            <li> Enterprise IT Operations to quickly scale up and support proven secure, affordable, flexible cloud resources, as well as other integrated solutions </li>
-            <li> Infrastructure Technology Suppliers to enable a rapid growth across the virtualization marketplace </li>
+            <li><?php echo $lang['HOME_FIFTH_UL_1'];?></li>
+            <li><?php echo $lang['HOME_FIFTH_UL_2'];?></li>
+            <li><?php echo $lang['HOME_FIFTH_UL_3'];?></li>
+            <li><?php echo $lang['HOME_FIFTH_UL_4'];?></li>
           </ul>
         </p >
 		</article>

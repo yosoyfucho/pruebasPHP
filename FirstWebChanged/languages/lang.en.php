@@ -35,6 +35,13 @@ $lang['HOME_FIFTH_UL_2']='Network Operators to differentiate their platform in t
 $lang['HOME_FIFTH_UL_3']='Enterprise IT Operations to quickly scale up and support proven secure, affordable, flexible cloud resources, as well as other integrated solutions.';
 $lang['HOME_FIFTH_UL_4']='Infrastructure Technology Suppliers to enable a rapid growth across the virtualization marketplace';
 
+//SLIDER
+$lang['SLIDE_LEARN_MORE']='Learn More';
+$lang['SLIDE_ABOUT']='Telcaria is an SME providing advanced services...';
+$lang['SLIDE_SERVICES']='We provide advanced virtual solutions for...';
+$lang['SLIDE_RESEARCH']='In Telcaria, we consider research is...';
+$lang['SLIDE_WORK']='We are currently hiring...';
+
 // ABOUT US
 $lang['ABOUT_HEADING']='About Us';
 $lang['ABOUT_FIRST']='Telcaria is an SME providing advanced services to network operatores worldwide.
@@ -52,6 +59,28 @@ $lang['ABOUT_THIRD']='If you feel like joining our team, please visit the <a hre
 //services
 $lang['SERVICES_TITLE']='Services';
 $lang['SERVICES_FIRST']='We provide advanced virtual solutions for network caching, prefetching, network function virtualization, flexible functions split, cloud based network services all in an integrated and portable environment.';
+$lang['SERVICES_SECOND']='Some of the main areas in which Telcaria works are:';
+
+$lang['SERVICES_OSNV']='Open Source Network Virtualization';
+$lang['SERVICES_OSNV_UL_1']='Network Function Virtualization';
+$lang['SERVICES_OSNV_UL_2']='Cloud-based Network Services';
+$lang['SERVICES_OSNV_UL_3']='Software Defined Networking';
+
+$lang['SERVICES_IS']='Internet Services';
+$lang['SERVICES_IS_UL_1']='Mobile Operators Infrastructure';
+$lang['SERVICES_IS_UL_2']='Advanced Mobility Protocols';
+$lang['SERVICES_IS_UL_3']='Centralized inter-domain routing systems';
+$lang['SERVICES_IS_UL_4']='Scalable L2 routing protocols';
+
+$lang['SERVICES_WIRELESS']='WIRELESS NETWORKS';
+$lang['SERVICES_WIRELESS_UL_1']='Advanced MAC protocols';
+$lang['SERVICES_WIRELESS_UL_2']='Wireless Mesh Network';
+$lang['SERVICES_WIRELESS_UL_3']='Energy-efficent networks';
+
+$lang['SERVICES_WEBTECH']='Web Technology development and ICT Solution integration';
+$lang['SERVICES_WEBTECH_UL_1']='Frontend applications for communications infrastructures (for PC, tablet and smartphone)';
+$lang['SERVICES_WEBTECH_UL_2']='Web browser plugins and web application design';
+
 // TO DO
 
 //work

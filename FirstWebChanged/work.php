@@ -16,7 +16,6 @@ include_once 'common.php';
 <![endif]-->
 
 
-
 </head>
 
 <body>
