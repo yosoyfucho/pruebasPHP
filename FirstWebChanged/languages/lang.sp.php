@@ -8,12 +8,12 @@ Language: Spanish
 $lang = array();
 
 // Title
-$lang['TITLE_HOME'] = 'Telcaria Website - Inicio';
-$lang['TITLE_ABOUT'] = 'Telcaria Website - Acerca de nosotros';
-$lang['TITLE_SERVICES'] = 'Telcaria Website - Servicios';
-$lang['TITLE_RESEARCH'] = 'Telcaria Website - Investigación';
-$lang['TITLE_WORK'] = 'Telcaria Website - Trabaja con nosotros';
-$lang['TITLE_CONTACT'] = 'Telcaria Website - Contacto';
+$lang['TITLE_HOME'] = 'Telcaria - Inicio';
+$lang['TITLE_ABOUT'] = 'Telcaria - Acerca de nosotros';
+$lang['TITLE_SERVICES'] = 'Telcaria - Servicios';
+$lang['TITLE_RESEARCH'] = 'Telcaria - Investigación';
+$lang['TITLE_WORK'] = 'Telcaria - Trabaja con nosotros';
+$lang['TITLE_CONTACT'] = 'Telcaria - Contacto';
 
 // Menu
 $lang['MENU_ABOUT_US'] = 'Acerca de Nosotros';
@@ -129,5 +129,10 @@ $lang['FORM_ADDRESS']='Dirección de correo electrónico';
 $lang['FORM_MSG']='Tu mensaje';
 $lang['FORM_OK']='¡Gracias!, Hemos recibido tu mensaje';
 $lang['FORM_WRONG']='Uups! Algo falló en el envío :(';
+
+$lang['PHLDR_NAME']='Escribe tu nombre';
+$lang['PHLDR_MAIL']='Escribe tu correo electrónico';
+$lang['PHLDR_MSG']='¿Qué nos quieres decir?';
+$lang['SPAIN']='ESPAÑA';
 
 ?>

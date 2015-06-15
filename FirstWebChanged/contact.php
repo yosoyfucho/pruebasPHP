@@ -71,7 +71,7 @@ include_once 'common.php';
         Telcaria Ideas SL
         Calle Barrionuevo 8, Local 1
         28911, Leganés (Madrid)
-        Spain
+        <?php echo $lang['SPAIN']; ?>
       </pre>
     <p>Email: <a href="mailto:info@telcaria.com?subject=feedback">info@telcaria.com</a></p>
     </article>
@@ -86,24 +86,18 @@ include_once 'common.php';
     </div>
     <p class="contact-para"><?php echo $lang['CONTACT_FIRST']; ?></p>
     <div class="w-form">
-      <form action="contactForm.php" method="post">
-      <label for="name"><?php echo $lang['FORM_NAME']; ?></label>
-       <input class="w-input" type="text" placeholder="Enter your name" name="cf_name">
-       <br>
-     <label for="email"><?php echo $lang['FORM_ADDRESS']; ?></label>
-       <input class="w-input" placeholder="Enter your email address" type="text" name="cf_email" required="required">
-       <br>
-     <label for="email"><?php echo $lang['FORM_MSG']; ?></label>
-       <textarea class="w-input message" placeholder="Enter your Message Here" name="cf_message"></textarea><br>
+        <form action="contactForm.php" method="post">
+          <label for="name"><p style="align:left"><?php echo $lang['FORM_NAME'];?></p></label>
+            <input class="w-input" type="text" style="width:100%" placeholder="<?php echo $lang['PHLDR_NAME'];?>" name="cf_name">
+            <br>
+              <label for="email"><p style="align:left"><?php echo $lang['FORM_ADDRESS']; ?></p></label>
+              <input class="w-input" style="width:100%" placeholder="<?php echo $lang['PHLDR_MAIL'];?>" type="text" name="cf_email" required="required">
+              <br>
+              <label for="email"><p style="align:left"><?php echo $lang['FORM_MSG']; ?></p></label>
+              <textarea class="w-input message" style="width:100%;height:50%"placeholder="<?php echo $lang['PHLDR_MSG'];?>" name="cf_message"></textarea><br>
 
-     <input class="w-button" type="submit" value="Send">
-   </form>
-      <div class="w-form-done">
-        <p><?php echo $lang['FORM_OK']; ?></p>
-      </div>
-      <div class="w-form-fail">
-        <p><?php echo $lang['FORM_WRONG']; ?></p>
-      </div>
+              <input class="w-button" type="submit" value="Send">
+            </form>
     </div>
   </div>
 </div>

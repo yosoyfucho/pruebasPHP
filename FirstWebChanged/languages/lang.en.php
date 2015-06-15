@@ -8,12 +8,12 @@ Language: English
 $lang = array();
 
 // Title
-$lang['TITLE_HOME'] = 'Telcaria Website - Home';
-$lang['TITLE_ABOUT'] = 'Telcaria Website - About Us';
-$lang['TITLE_SERVICES'] = 'Telcaria Website - Services';
-$lang['TITLE_RESEARCH'] = 'Telcaria Website - Research';
-$lang['TITLE_WORK'] = 'Telcaria Website - Work with Us';
-$lang['TITLE_CONTACT'] = 'Telcaria Website - Contact';
+$lang['TITLE_HOME'] = 'Telcaria - Home';
+$lang['TITLE_ABOUT'] = 'Telcaria - About Us';
+$lang['TITLE_SERVICES'] = 'Telcaria - Services';
+$lang['TITLE_RESEARCH'] = 'Telcaria - Research';
+$lang['TITLE_WORK'] = 'Telcaria - Work with Us';
+$lang['TITLE_CONTACT'] = 'Telcaria - Contact';
 
 // Menu
 $lang['MENU_ABOUT_US'] = 'About Us';
@@ -107,7 +107,6 @@ $lang['WEBT_FIRST']='Telcaria has developed different projects for other SMEs re
 
 
 
-// TO DO
 
 //work
 $lang['WORK_TITLE']='Work with us';
@@ -131,4 +130,8 @@ $lang['FORM_MSG']='Your Message:';
 $lang['FORM_OK']='Thank you! Your submission has been received!';
 $lang['FORM_WRONG']='Oops! Something went wrong while submitting the form :(';
 
+$lang['PHLDR_NAME']='Enter your name';
+$lang['PHLDR_MAIL']='Enter your email address';
+$lang['PHLDR_MSG']='Enter your message here';
+$lang['SPAIN']='SPAIN';
 ?>
