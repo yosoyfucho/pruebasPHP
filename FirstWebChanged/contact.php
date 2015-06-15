@@ -81,7 +81,7 @@ include_once 'common.php';
   </div>
 
   <!-- Contact uS -->
-<div id="secondary-content">
+<div class="wrapper">
   <div class="wrap">
     <div class="contact-div">
       <h1 class="contact-heading"><?php echo $lang['CONTACT_US_TITLE']; ?></h1>
