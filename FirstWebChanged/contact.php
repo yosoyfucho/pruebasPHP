@@ -105,7 +105,11 @@ include_once 'common.php';
 
 <div id="secondary-content">
   <div class="wrapper">
+    <article>
+      <h1><?php echo $lang['CONTACT_MAP']; ?></h1>
+
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3041.5961217362624!2d-3.7685379000000174!3d40.32912020000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd418a20a97653cb%3A0x8d135ec73595b7a3!2sCalle+de+Barrionuevo%2C+8!5e0!3m2!1ses!2ses!4v1434352697849" width="100%" height="450" frameborder="0" style="border:0"></iframe>
+  </article>
   </div>
 </div>
 

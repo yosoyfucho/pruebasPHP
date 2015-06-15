@@ -120,7 +120,8 @@ $lang['RESEARCH_FIRST_UL_1']='ESP <a href="http://www.netide.eu/">NetIDE</a>: An
 $lang['RESEARCH_FIRST_UL_2']='ESP Superfluidity';
 
 //contact
-$lang['CONTACT_TITLE']='Estamos aquí';
+$lang['CONTACT_TITLE']='Nuestra dirección';
+$lang['CONTACT_MAP']='Aquí estamos';
 $lang['CONTACT_US_TITLE']='Escríbenos';
 $lang['CONTACT_FIRST']='Gracias por escribirnos!
   <br>Intentaremos contestarte lo antes posible, 1 - 2 días laborables';
