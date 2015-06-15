@@ -63,23 +63,25 @@ include_once 'common.php';
 
 <!-- Articulo Secundario -->
 <div id="secondary-content">
-  <div class="w-widget w-widget-map contac-map" data-widget-latlng="40.329120, -3.768538" data-widget-style="roadmap" data-widget-zoom="60" data-widget-tooltip="Telcaria Ideas S.L."></div>
+  <div class="w-widget w-widget-map contac-map" data-widget-latlng="40.329120, -3.768538" data-widget-style="roadmap" data-widget-zoom="60" data-widget-tooltip="Telcaria Ideas S.L.">
+  </div>
 
+  <!-- Here we are -->
   <div class="wrapper">
-  <article>
-    <h1><?php echo $lang['CONTACT_TITLE']; ?></h1>
-    <pre>
-      Telcaria Ideas SL
-      Calle Barrionuevo 8, Local 1
-      28911, Leganés (Madrid)
-      Spain
-    </pre>
-    <p>
-      Email: <a href="mailto:info@telcaria.com?subject=feedback">info@telcaria.com</a>
-    </p>
-  </article>
-</div>
-<div class="w-container">
+    <article>
+      <h1><?php echo $lang['CONTACT_TITLE']; ?></h1>
+      <pre>
+        Telcaria Ideas SL
+        Calle Barrionuevo 8, Local 1
+        28911, Leganés (Madrid)
+        Spain
+      </pre>
+    <p>Email: <a href="mailto:info@telcaria.com?subject=feedback">info@telcaria.com</a></p>
+    </article>
+  </div>
+
+  <!-- Contact uS -->
+<div id="secondary-content">
   <div class="wrap">
     <div class="contact-div">
       <h1 class="contact-heading"><?php echo $lang['CONTACT_US_TITLE']; ?></h1>
