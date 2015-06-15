@@ -28,7 +28,7 @@ $lang['HOME_SECOND'] = 'ESP Nowadays, voice and Internet access are totally comm
 $lang['HOME_SECOND_UL_1']='ESP Lower costs by combining SDN and NFV.';
 $lang['HOME_SECOND_UL_2']='ESP Increase added value by service differentiation.';
 $lang['HOME_THIRD']='ESP That is, Telco Virtualization: from Hardware-based companies to Software-based companies.';
-$lang['HOME_FOURTH']='ESP Telcaria provides products and services for Software-Based Telcos, but we also provide Web Technology developments, Internet Services and ICT solutions integration at request. Please visit the <a href="services.html"> Services </a> section for more info.';
+$lang['HOME_FOURTH']='ESP Telcaria provides products and services for Software-Based Telcos, but we also provide Web Technology developments, Internet Services and ICT solutions integration at request. Please visit the <a href="services.php"> Services </a> section for more info.';
 $lang['HOME_FIFTH']='ESP Telcaria costumers:';
 $lang['HOME_FIFTH_UL_1']='ESP SaaS to drive developer productivity with a vendor-neutral, standard-based open-source platforms.';
 $lang['HOME_FIFTH_UL_2']='ESP Network Operators to differentiate their platform in the high-growth IaaS marketplace.';
@@ -54,7 +54,7 @@ $lang['ABOUT_FIRST']='ESP Telcaria is an SME providing advanced services to netw
 $lang['ABOUT_SECOND']='ESP Telcaria is headquartered in Madrid, Spain. The company has collaborations with research
         institute IMDEA Networks and top Universities in the area: U. Carlos III of Madrid,
         U. Politecnica de Madrid and U. Alcala.';
-$lang['ABOUT_THIRD']='ESP If you feel like joining our team, please visit the <a href="contact.html"> Contact Us </a> section and send us your information and interests.';
+$lang['ABOUT_THIRD']='ESP If you feel like joining our team, please visit the <a href="contact.php"> Contact Us </a> section and send us your information and interests.';
 
 //services
 $lang['SERVICES_TITLE']='Nuestros Servicios';
