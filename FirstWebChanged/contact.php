@@ -63,9 +63,6 @@ include_once 'common.php';
 
 <!-- Articulo Secundario -->
 <div id="secondary-content">
-  <div class="w-widget w-widget-map contac-map" data-widget-latlng="40.329120, -3.768538" data-widget-style="roadmap" data-widget-zoom="60" data-widget-tooltip="Telcaria Ideas S.L.">
-  </div>
-
   <!-- Here we are -->
   <div class="wrapper">
     <article>
@@ -112,6 +109,12 @@ include_once 'common.php';
 </div>
 </div>
 
+<div id="secondary-content">
+  <div class="wrapper">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3041.5961217362624!2d-3.7685379000000174!3d40.32912020000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd418a20a97653cb%3A0x8d135ec73595b7a3!2sCalle+de+Barrionuevo%2C+8!5e0!3m2!1ses!2ses!4v1434352697849" width="100%" height="450" frameborder="0" style="border:0"></iframe>
+  </div>
+</div>
+
 
   <footer>
     <div id="footer-info">
@@ -133,17 +136,6 @@ include_once 'common.php';
     </div>
   </footer>
 
-
-  <script type="text/javascript" src="js/jquery.js"></script>
-  <script type="text/javascript" src="js/normal.js"></script>
-  <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
-  <script type="text/javascript" src="js/carousels.js"></script>
-  <script type="text/javascript" src="js/slider-modernizr.js"></script>
-  <script src="js/classie.js"></script>
-  <script src="js/portfolio-effects.js"></script>
-  <script src="js/toucheffects.js"></script>
-  <script src="js/modernizr.js"></script>
-  <script src="js/animation.js"></script>
 
 
 
