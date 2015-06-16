@@ -35,6 +35,10 @@ include_once 'common.php';
   </header>
 </a>
   <!-- Menú de navegación -->
+  <div class="menu_bar">
+    <a href="#" class="bt-menu">Menu</a>
+  </div>
+
   <nav>
     <ul>
           <li>
@@ -93,6 +97,7 @@ include_once 'common.php';
       </ul>
     </div>
   </footer>
-
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+  <script src="js/menu.js"></script>
   </body>
   </html>

@@ -42,6 +42,11 @@ include_once 'common.php';
   </header>
 </a>
   <!-- Menú de navegación -->
+
+  <div class="menu_bar">
+    <a href="#" class="bt-menu">Menu</a>
+  </div>
+
   <nav>
     <ul>
         <li>
@@ -187,6 +192,7 @@ include_once 'common.php';
     $('#carr').coinslider();
   </script>
   <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+  <script src="js/menu.js"></script>
   </body>
   </html>
