@@ -138,9 +138,6 @@ include_once 'common.php';
   </div>
 
 
-  <!-- Probando hasta aquí -->
-
-  <!-- Contenido principal -->
 
 <!-- Para separar contenido -->
   <div class="clear"></div>

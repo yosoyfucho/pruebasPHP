@@ -28,7 +28,7 @@ include_once 'common.php';
       <a href="index.php?lang=en">
       English <img src="img/uk.png" widht="75" height="25" alt="English"/>
       </a>
-      <a href="index.php?lang=sp">
+      <a href="index.php?lang=es">
       Español <img src="img/sp.png" widht="75" height="25" alt="Español"/>
       </a>
   </p>
