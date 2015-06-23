@@ -37,29 +37,34 @@ include_once 'common.php';
   </header>
 </a>
 
-  <!-- Menú de navegación -->
-  <div class="menu-button">Menu</div>
-
-  <nav>
-    <ul class="flexnav" data-breakpoint="800">
-        <li>
-          <a href="index.php">
-            <img src="img/homeB.png" alt="Home Icon" style="width:25px;height:25px" onmouseover="this.src='img/homeH.png';" onmouseout="this.src='img/homeB.png';" />
-          </a>
-        </li>
-        <li><a href="about.php" style="color:#ffff99"><?php echo $lang['MENU_ABOUT_US']; ?>
-          <img src="img/dot.png" alt="dot icon" style="width:5px;height:5px;align:center"/></a>
-        </li>
-        <li><a href="services.php"><?php echo $lang['MENU_SERVICES']; ?></a></li>
-        <li><a href="research.php"><?php echo $lang['MENU_RESEARCH']; ?></a></li>
-        <li><a href="work.php"><?php echo $lang['MENU_WORK']; ?></a></li>
-        <li>
-          <a href="contact.php">
-            <img src="img/mailB.png" alt="mail Icon" style="width:25px;height:25px" onmouseover="this.src='img/mailH.png';" onmouseout="this.src='img/mailB.png';" />
-          </a>
-        </li>
-    </ul>
-  </nav>
+<!-- Menú de navegación -->
+<div class="menu-button">Menu</div>
+<nav>
+  <ul class="flexnav" data-breakpoint="800">
+      <li>
+        <a href="index.php">
+          <img src="img/homeB.png" alt="Home Icon" style="width:25px;height:25px" onmouseover="this.src='img/homeH.png';" onmouseout="this.src='img/homeB.png';" />
+        </a>
+      </li>
+      <!-- MENU_ABOUT_US -->
+      <li>
+        <a href="about.php" style="color:#ffff99"><?php echo $lang['MENU_ABOUT_US']; ?>
+          <img src="img/dot.png" alt="dot icon" style="width:5px;height:5px;align:center"/>
+        </a>
+      </li>
+      <!-- MENU_SERVICES -->
+      <li><a href="services.php"><?php echo $lang['MENU_SERVICES']; ?></a></li>
+      <!-- MENU_RESEARCH -->
+      <li><a href="research.php"><?php echo $lang['MENU_RESEARCH']; ?></a></li>
+      <!-- MENU_WORK -->
+      <li><a href="work.php"><?php echo $lang['MENU_WORK']; ?></a></li>
+      <li>
+        <a href="contact.php">
+          <img src="img/mailB.png" alt="Home Icon" style="width:25px;height:25px" onmouseover="this.src='img/mailH.png';" onmouseout="this.src='img/mailB.png';" />
+        </a>
+      </li>
+  </ul>
+</nav>
 
 <!-- Articulo Secundario -->
   <div id="secondary-content">
@@ -98,5 +103,6 @@ include_once 'common.php';
   <script>
       $(".flexnav").flexNav();
   </script>
+
   </body>
   </html>

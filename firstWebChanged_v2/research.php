@@ -9,6 +9,7 @@ include_once 'common.php';
     <link rel="stylesheet" href="css/mystyle.css">
     <link href='http://fonts.googleapis.com/css?family=Crete+Round' rel='stylesheet' type='text/css'>
     <link rel="shortcut icon" type="image/x-icon" href="img/circles.png">
+    <link href="css/flexnav.css" rel="stylesheet" type="text/css" />
 
 <!--[if lt IE 9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -35,8 +36,10 @@ include_once 'common.php';
   </header>
 </a>
   <!-- Menú de navegación -->
+  <div class="menu-button">Menu</div>
+
   <nav>
-    <ul>
+    <ul class="flexnav" data-breakpoint="800">
           <li>
             <a href="index.php">
               <img src="img/homeB.png" alt="Home Icon" style="width:25px;height:25px" onmouseover="this.src='img/homeH.png';" onmouseout="this.src='img/homeB.png';" />
@@ -93,6 +96,10 @@ include_once 'common.php';
       </ul>
     </div>
   </footer>
+  <script type="text/javascript" src="js/jquery.flexnav.min.js"></script>
+  <script>
+      $(".flexnav").flexNav();
+  </script>
 
   </body>
   </html>
