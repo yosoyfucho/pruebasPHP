@@ -287,7 +287,7 @@ footer {
 
 /* Para resolución pequeña */
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 320px) {
 
   header {
     font-family:'Crete Round', Helvetica;
@@ -296,24 +296,63 @@ footer {
     margin-right:3%;
     background-image:url(../img/logo_header.png);
     background-position: left bottom;
-    background-size: 400px;
+    background-size: 350px;
     background-repeat:no-repeat;
     padding-top:80px;
     margin-top: -60px;
     }
 
     header h1{
-      font-size: 1em;
+      font-size: 0.59em;
     }
-
-
 
     #main-content{
       display: none;
     }
 
+    #secondary-content {
+      width: 95%;
+      font-size: 15px;
+      float:center;
+      text-align: justify;
+      border-radius:3px;
+
+      margin-top:5px;
+      margin-bottom: 5px;
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    #secondary-content h1 {
+      display: block;
+      color:#003366;
+      font-family: 'Crete Round', serif;
+      font-size:20px;
+      width: 200px;
+      border-bottom: 1px solid #02b8dd;
+      padding: 0 0 20px 0;
+    }
+    #secondary-content h2 {
+      display: block;
+      color:#003366;
+      font-family: 'Crete Round', serif;
+      font-size: 15px;
+      width: 100px;
+      border-bottom: 1px solid #02b8dd;
+      padding: 0 0 20px 0;
+    }
+
+    #secondary-content h3 {
+      display: block;
+      color:#003366;
+      font-family: 'Crete Round', serif;
+      font-size: 15px;
+      width: 200px;
+      border-bottom: 1px solid #02b8dd;
+      padding: 0 0 10px 0;
+    }
     footer {
-      width:375px;
+      width:320px;
     }
 }
 
@@ -364,8 +403,10 @@ footer {
     float:center;
     text-align: justify;
     border-radius:3px;
-    margin-top: 5px;
+
+    margin-top:5px;
     margin-bottom: 5px;
+    margin-left:17%;
   }
 
 
@@ -438,10 +479,11 @@ footer {
        background-color: #ffffcc;
        float:center;
        color:#003366;
-       width: 1002px;
+       width: 960px;
        padding-top: 10px;
        text-align: justify;
        border-radius:3px;
+       margin-left: 16%;
 
      }
      #secondary-content{

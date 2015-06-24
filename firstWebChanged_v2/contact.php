@@ -5,11 +5,14 @@ include_once 'common.php';
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title><?php echo $lang['TITLE_CONTACT']; ?></title>
     <link rel="stylesheet" href="css/mystyle.css">
     <link href='http://fonts.googleapis.com/css?family=Crete+Round' rel='stylesheet' type='text/css'>
     <link rel="shortcut icon" type="image/x-icon" href="img/circles.png">
     <link href="css/flexnav.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 
 <!--[if lt IE 9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -63,6 +66,7 @@ include_once 'common.php';
         </li>
     </ul>
   </nav>
+  <div class="clear"></div>
 
 <!-- Articulo Secundario -->
 <div id="secondary-content">
@@ -70,10 +74,9 @@ include_once 'common.php';
   <div class="wrapper">
     <article>
       <h1><?php echo $lang['CONTACT_TITLE']; ?></h1>
-      <pre>
-        Telcaria Ideas SL
-        Calle Barrionuevo 8, Local 1
-        28911, Leganés (Madrid)
+        <p>Telcaria Ideas SL</p>
+        <p>Calle Barrionuevo 8, Local 1</p>
+        <p>28911, Leganés (Madrid)</p>
         <?php echo $lang['SPAIN']; ?>
       </pre>
     <p>Email: <a href="mailto:info@telcaria.com?subject=feedback">info@telcaria.com</a></p>

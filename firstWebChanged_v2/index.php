@@ -5,6 +5,8 @@ include_once 'common.php';
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- TITLE_HOME -->
     <title><?php echo $lang['TITLE_HOME']; ?></title>
     <link rel="stylesheet" href="css/mystyle.css">
@@ -70,6 +72,8 @@ include_once 'common.php';
         </li>
     </ul>
   </nav>
+
+  <div class="clear"></div>
 
 <!-- NAV ending -->
 
@@ -193,6 +197,8 @@ include_once 'common.php';
   </script>
   <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 <script type="text/javascript" src="js/jquery.flexnav.min.js"></script>
+<script type="text/javascript" src="js/jquery.flexnav.js"></script>
+
 <script>
     $(".flexnav").flexNav();
 </script>

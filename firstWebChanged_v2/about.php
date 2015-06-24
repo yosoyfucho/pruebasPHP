@@ -5,11 +5,14 @@ include_once 'common.php';
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title><?php echo $lang['TITLE_ABOUT']; ?></title>
     <link rel="stylesheet" href="css/mystyle.css">
     <link href='http://fonts.googleapis.com/css?family=Crete+Round' rel='stylesheet' type='text/css'>
     <link rel="shortcut icon" type="image/x-icon" href="img/circles.png">
     <link href="css/flexnav.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 
 <!--[if lt IE 9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -66,6 +69,8 @@ include_once 'common.php';
   </ul>
 </nav>
 
+<div class="clear"></div>
+
 <!-- Articulo Secundario -->
   <div id="secondary-content">
     <div class="wrapper">
@@ -75,9 +80,9 @@ include_once 'common.php';
       <p><?php echo $lang['ABOUT_SECOND']; ?></p>
       <p><?php echo $lang['ABOUT_THIRD']; ?></p>
     </article>
-
+    </div>
   </div>
-  </div>
+  <div class="clear"></div>
 
 
   <footer>
@@ -100,9 +105,9 @@ include_once 'common.php';
     </div>
   </footer>
   <script type="text/javascript" src="js/jquery.flexnav.min.js"></script>
-  <script>
-      $(".flexnav").flexNav();
-  </script>
+  <script type="text/javascript" src="js/jquery.flexnav.js"></script>
+
+  <script>$(".flexnav").flexNav();</script>
 
   </body>
   </html>
