@@ -311,7 +311,7 @@ footer {
     }
 
     #secondary-content {
-      width: 95%;
+      width: 88%;
       font-size: 15px;
       float:center;
       text-align: justify;
@@ -352,7 +352,8 @@ footer {
       padding: 0 0 10px 0;
     }
     footer {
-      width:320px;
+      width:50%;
+      margin-left: -3px;
     }
 }
 
