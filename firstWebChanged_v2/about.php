@@ -71,6 +71,7 @@ include_once 'common.php';
       </li>
   </ul>
 </nav>
+<!-- Fin menú navegación -->
 
 <div class="clear"></div>
 
@@ -107,6 +108,7 @@ include_once 'common.php';
       </ul>
     </div>
   </footer>
+  <!-- Scripts para el menú -->
   <script type="text/javascript" src="js/jquery.flexnav.min.js"></script>
   <script type="text/javascript" src="js/jquery.flexnav.js"></script>
 

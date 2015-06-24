@@ -6,11 +6,14 @@ include_once 'common.php';
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <!-- Valor del ancho de la pantalla del dispositivo -->
     <title><?php echo $lang['TITLE_RESEARCH']; ?></title>
     <link rel="stylesheet" href="css/mystyle.css">
+    <!-- Fuente externa de google -->
     <link href='http://fonts.googleapis.com/css?family=Crete+Round' rel='stylesheet' type='text/css'>
+    <!-- Icono de Favoritos -->
     <link rel="shortcut icon" type="image/x-icon" href="img/circles.png">
+    <!-- Para el menú desplegable -->
     <link href="css/flexnav.css" rel="stylesheet" type="text/css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 
@@ -101,6 +104,7 @@ include_once 'common.php';
       </ul>
     </div>
   </footer>
+  <!-- Scripts para el menú desplegable -->
   <script type="text/javascript" src="js/jquery.flexnav.min.js"></script>
   <script>
       $(".flexnav").flexNav();

@@ -5,12 +5,15 @@ include_once 'common.php';
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!-- Valores para el ancho de la pantalla -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title><?php echo $lang['TITLE_WORK']; ?></title>
     <link rel="stylesheet" href="css/mystyle.css">
+    <!-- Fuente de google -->
     <link href='http://fonts.googleapis.com/css?family=Crete+Round' rel='stylesheet' type='text/css'>
+    <!-- Icono de favoritos -->
     <link rel="shortcut icon" type="image/x-icon" href="img/circles.png">
+    <!-- Menú de navegación -->
     <link href="css/flexnav.css" rel="stylesheet" type="text/css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 
@@ -102,6 +105,7 @@ include_once 'common.php';
       </ul>
     </div>
   </footer>
+  <!-- Para el menú desplegable -->
   <script type="text/javascript" src="js/jquery.flexnav.min.js"></script>
   <script>
       $(".flexnav").flexNav();

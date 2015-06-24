@@ -5,20 +5,24 @@ include_once 'common.php';
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!-- Valor del ancho de la pantalla del dispositivo -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <!-- TITLE_HOME -->
     <title><?php echo $lang['TITLE_HOME']; ?></title>
     <link rel="stylesheet" href="css/mystyle.css">
+    <!-- Icono de favoritos -->
     <link rel="shortcut icon" type="image/x-icon" href="img/circles.png">
 
 <!--[if lt IE 9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<!-- Carrusel de imagenes -->
 <script type="text/javascript" src="js/coin-slider.js"></script>
 <link rel="stylesheet" href="css/coin-slider-styles.css" type="text/css" />
+<!-- Fuente externa de Google -->
 <link href='http://fonts.googleapis.com/css?family=Crete+Round' rel='stylesheet' type='text/css'>
+<!-- Menú desplegable -->
 <link href="css/flexnav.css" rel="stylesheet" type="text/css" />
 
 
@@ -138,10 +142,6 @@ include_once 'common.php';
   </div>
 
 
-  <!-- Probando hasta aquí -->
-
-  <!-- Contenido principal -->
-
 <!-- Para separar contenido -->
   <div class="clear"></div>
 <!-- Contenido  Scundario -->
@@ -195,13 +195,12 @@ include_once 'common.php';
   <script>
     $('#carr').coinslider();
   </script>
+  <!-- Widget de Twitter -->
   <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  <!-- Scripts para el menú desplegable -->
 <script type="text/javascript" src="js/jquery.flexnav.min.js"></script>
 <script type="text/javascript" src="js/jquery.flexnav.js"></script>
-
-<script>
-    $(".flexnav").flexNav();
-</script>
+<script>$(".flexnav").flexNav();</script>
 
 </body>
   </html>
