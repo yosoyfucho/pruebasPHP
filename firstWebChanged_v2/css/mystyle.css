@@ -15,8 +15,6 @@ p {
 	margin-bottom: 20px;
 }
 
-
-
 h1 {
 	font-family: 'Crete Round', serif;
 	font-weight: bold;
@@ -296,14 +294,14 @@ footer {
     margin-right:3%;
     background-image:url(../img/logo_header.png);
     background-position: left bottom;
-    background-size: 350px;
+    background-size: 355px;
     background-repeat:no-repeat;
     padding-top:80px;
     margin-top: -60px;
     }
 
     header h1{
-      font-size: 0.59em;
+      font-size: 0.64em;
     }
 
     #main-content{
@@ -353,6 +351,7 @@ footer {
     }
     footer {
       width:50%;
+      margin-right: 45%;
       margin-left: -3px;
     }
 }
@@ -409,7 +408,34 @@ footer {
     margin-bottom: 5px;
     margin-left:17%;
   }
+  #main-content h1 {
+    display: block;
+    color:#003366;
+    font-family: 'Crete Round', serif;
+    width: 400px;
+    border-bottom: 1px solid #02b8dd;
+    padding: 0 0 20px 0;
+  }
 
+  #main-content h2 {
+    display: block;
+    color:#003366;
+    font-family: 'Crete Round', serif;
+    font-size: 20px;
+    width: 400px;
+    border-bottom: 1px solid #02b8dd;
+    padding: 0 0 20px 0;
+  }
+
+  #main-content h3 {
+    display: block;
+    color:#003366;
+    font-family: 'Crete Round', serif;
+    font-size: 15px;
+    width: 400px;
+    border-bottom: 1px solid #02b8dd;
+    padding: 0 0 10px 0;
+  }
 
 /* ============
     WIDE: Menu
@@ -434,6 +460,9 @@ footer {
 
     footer {
       width:720px;
+      margin-left: 15%;
+      margin-right: 15%;
+      display: inline-block;
     }
 }
 
@@ -490,11 +519,41 @@ footer {
      #secondary-content{
        display:inline-flex;
      }
+     #main-content h1 {
+       display: block;
+       color:#003366;
+       font-family: 'Crete Round', serif;
+       width: 400px;
+       border-bottom: 1px solid #02b8dd;
+       padding: 0 0 20px 0;
+     }
 
+     #main-content h2 {
+       display: block;
+       color:#003366;
+       font-family: 'Crete Round', serif;
+       font-size: 20px;
+       width: 400px;
+       border-bottom: 1px solid #02b8dd;
+       padding: 0 0 20px 0;
+     }
+
+     #main-content h3 {
+       display: block;
+       color:#003366;
+       font-family: 'Crete Round', serif;
+       font-size: 15px;
+       width: 400px;
+       border-bottom: 1px solid #02b8dd;
+       padding: 0 0 10px 0;
+     }
 
 
      footer {
        width:1200px;
+       margin-left: 15%;
+       margin-right: 15%;
+       display: inline-block;
      }
      .wrapper {
          width: 1000px; /* 1140px - 10% for margins */
